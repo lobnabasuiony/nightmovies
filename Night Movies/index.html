@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html>
+
+<head>
+  <title>NigthMovies/Home</title>
+  <link rel="icon" type="image/x-icon" href="images/tlogo.PNG" >
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style index.css" />
+  
+</head>
+
+<body>
+  <div id="main">	
+	<div id="site_content">
+    <div id="account">
+    <a class="link1" href="login.html">LogIn</a>|<a class="link2" href="register.html">Register</a>
+    </div>
+      <div id="site_heading">
+	    <a href="index.html"><img src="images/logo.png" width="500px" alt="Logo"/></a>
+        <div class="footer-social-icons">
+						
+								<ul class="social-icons">
+									<li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+									<li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+									<li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+							
+								</ul>
+      </div>
+	  </div><!--close site_heading-->
+	  <div id="header">
+	    <div id="menubar">
+          <ul id="menu">
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="browsemovies.html">Browse Movies</a></li>
+            <li><a href="action.html">Action</a></li>
+            <li><a href="mystary.html">Mystery</a></li>
+            <li><a href="adventure.html">Adventure</a></li>
+            <li><a href="comedy.html">Comedy</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          <ul id="search">
+          <form><span><input type="text" class="search rounded" placeholder="Quick search"></span><span><input type="submit" class="search rounded" value="Search" ></span></form>
+          </ul>
+        </div><!--close menubar-->
+      </div><!--close header-->
+      <div class="slider">
+  <img class="mySlides" src="images/slide1.jpg" style="width:100%" alt="">
+  <img class="mySlides" src="images/slide2.jpg" style="width:100%" alt="">
+  <img class="mySlides" src="images/slide3.jpg" style="width:100%" alt="">
+  <img class="mySlides" src="images/slide4.jpg" style="width:100%" alt="">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000);
+}
+</script>	  			  
+	  <div id="content1">
+        
+		<div class="content_item">
+		  <h2>Welcome To NightMovies Website</h2>
+          <p> We started an effort to salvage as much of NightMovies data as possible. Two weeks ago, we began collecting NightMovies data from many different sources: the Google cache, archive.org, Kickass Torrents copies of YIFY torrents etcetera. A few people who still had a large set of cached data and torrents from the NightMovies API available on their computers helped us as well.
+
+NightMovies.eg has been born by combining all these different data sets, sanitizing the data, and recovering a large amount of the torrents uploaded by NightMovies. We are a new team / releasing group continuing the NightMovies project. So, we have created the domain name YTS.AG for publishing all of our newly released torrents, under YIFY release.
+
+Our new team is continuing the NightMovies project by releasing new movies daily (720p, 1080p and 3D) at the same quality and size like the previous YIFY team. The audio on our new releases is improved (now encoding to 128kbps comparing to 96kbps on old ones), plus we can safely say that even the video is a bit better.
+
+An answer to all the negative allegations made to our team: YES, NightMovies.eg is the closest thing that anybody can get to being the REAL website for new the YIFY group releases. Unfortunately, classic YIFY releases are no more, and yts.to is gone as well. Yet, we are continuing where YIFY left off so you can also find on NightMovies.eg all the movies/torrents published by the classic YIFY releases. The quality and size of the movies are preserved, only the people behind the project have changed. For now, we are still using YIFY as the name of our new release group, but we may change this in the future.
+
+We can guarantee you 100% that it is safe to download both previous YIFY releases and new releases from NightMovies.eg. The torrents are malware-free and the website has no ads at all.
+
+We have no intention of collecting the users personal information at all for any purpose. In that spirit, Registration is turned off for a limited time for the purpose of building trust. Feel free to download at your hearts content. Give us a try, and decide for yourself.
+</p><hr>
+<p>We trust our group not to have the same fate as yts.to; although we do not know specifics with what really happened with them, just that they have signed a deal with the MPAA. Though if we are going on this road, we know we must act differently, so as to not to share the same fate as yts.to.
+
+As for Torrentfreak articles, we have contacted Ernesto today to explain to him that there are false allegations in his articles and that we are guilty for his previous articles containing misinformation; the fact that we did not make it very clear from the beginning, that we are just continuing the old YIFY group work. We are willing to correct our mistakes and still waiting for his reply.
+
+The other main torrent sites wrongly think that we are directly affiliated with EZTV, and this is one of the main reasons why they do not want us to upload torrents to them. We just pay to EZTV for advertisement. Another one would be that we use the same name, YIFY, instead of choosing a new one. This is why we are thinking of choosing a new one, but very similar though, so people would know what to expect from our releases.
+
+Happy watching ;-)</p>
+        </div><!--close content_item--> 
+	  </div><!--close content-->	    
+
+      <div class="sidebar_container">  		  
+		<div class="sidebar1">
+          <a href="#"><img src="images/teenageposter.jpg" alt="" ></a><br><br>
+          <a href="#"><img src="images/Love frindship.jpg" alt="" ></a><br><br>
+          <a href="#"><img src="images/images (1).jpg" alt="" ></a>
+        </div><!--close sidebar-->  
+      </div><!--close sidebar_container-->  
+	  
+    </div><!--close site_content-->	
+    <div id="footer">  
+      Night Movies © 2006 - 2016 | <a href="browsemovies.html"> Browse Movies</a> | <a href="contact.html"> Contact Us</a> | <a href="register.html"> Register</a>
+    </div><!--close footer-->	
+  </div><!--close main-->	
+</body>
+</html>
